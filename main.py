@@ -46,7 +46,7 @@ def get_handednes_num(hand_state,num):
 
 
 
-def check_hands_point(result,image,hands_side):
+def mcheck_hands_point(result,image,hands_side):
     side = 0
     if hands_side == hand_side.left:
         side = 0
