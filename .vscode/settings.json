@@ -1,0 +1,67 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "source.python",
+                "settings": {
+                    "foreground": "#9CDCFE"
+                }
+            },
+            {
+                "scope": "source.python punctuation",
+                "settings": {
+                    "foreground": "#CCCCCC"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.python",
+                    "meta.function-call.generic.python",
+                    "support.function.builtin.python",
+                    "support.function.magic.python"
+                ],
+                "settings": {
+                    "foreground": "#DCDCAA"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type.class.python",
+                    "entity.other.inherited-class.python",
+                    "support.type.metaclass.python"
+                ],
+                "settings": {
+                    "foreground": "#4EC9B0"
+                }
+            },
+            {
+                "scope": [
+                    "variable.parameter.function.language.python",
+                    "variable.parameter.function.language.special.self.python",
+                    "variable.parameter.function.language.special.cls.python",
+                    "variable.parameter.function-call.python",
+                    "variable.parameter.class.python",
+                    "variable.language.special.self.python",
+                    "variable.language.special.cls.python",
+                    "meta.attribute.python"
+                ],
+                "settings": {
+                    "foreground": "#9CDCFE"
+                }
+            },
+            {
+                "scope": [
+                    "constant.other.caps.python"
+                ],
+                "settings": {
+                    "foreground": "#4FC1FF"
+                }
+            }
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "variable:python": "#9CDCFE"
+        }
+    }
+}

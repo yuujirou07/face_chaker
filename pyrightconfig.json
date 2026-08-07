@@ -1,0 +1,7 @@
+{
+  "extraPaths": [
+    "/home/yuujirou07/vscode_proj/python_proj/.venv/lib64",
+    "./my_modules",
+    "/path/to/external/library"
+  ]
+}
