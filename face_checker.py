@@ -137,7 +137,7 @@ def check_face_neutral(face_blendshapes):
         category.score for category in face_blendshapes[0]
         if category.category_name != "_neutral"
     ]
-    if max(expression_scores, default=1.0) > 0.95:
+    if max(expression_scores, default=1.0) > 0.9:
         return 1
     return 0
 
